@@ -65,7 +65,7 @@ span.psw {
 
 <h2>Login Form</h2>
 
-<form action="http://0.0.0.0:8000/" method="post">
+<form action="http://0.0.0.0:8000/loginsuccess" method="post">
 
   <div class="container">
     <label for="uname"><b>Username</b></label>
@@ -74,7 +74,7 @@ span.psw {
     <label for="psw"><b>Password</b></label>
     <input type="password" placeholder="Enter Password" name="pwd" required>
         
-    <button type="submit" onclick="window.location.href = 'http://0.0.0.0:8000/loginsuccess';">Login</button>
+    <button type="submit">Login</button>
     <button type="button" class="btn btn-primary" onclick="window.location.href = 'http://0.0.0.0:8000/register';">Register</button>
     <label>
       <input type="checkbox" checked="checked" name="remember"> Remember me
@@ -83,7 +83,7 @@ span.psw {
 
   <div class="container" style="background-color:#f1f1f1">
     
-    <span class="psw">Forgot <a href="#">password?</a></span>
+    <span class="psw">Forgot <a href="/forgot">password?</a></span>
   </div>
 </form>
 

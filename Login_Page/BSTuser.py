@@ -159,10 +159,15 @@ class BST :
         if node is None:
             return 0
         return self.count(node.left) + self.count(node.right) + 1
-bst = BST()
-# bst.insert(Node('25','dear123'))
-# bst.insert(Node('50','123'))
-# bst.insert(Node('15','1234'))
+# bst = BST()
+# bst.insert(Node('boom','123'))
+# bst.insert(Node('jack','123'))
+
+
+
+# print(bst.preorder(bst.root))
+# print(bst.print())
+
 
 
 # while True:
